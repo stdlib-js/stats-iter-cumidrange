@@ -1,0 +1,45 @@
+{
+  "name": "@stdlib/stats-iter-cumidrange",
+  "version": "0.0.0",
+  "description": "Create an iterator which iteratively computes a cumulative mid-range.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./mod.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/stats-iter-cumidrange.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "statistics",
+    "stats",
+    "mathematics",
+    "math",
+    "maximum",
+    "max",
+    "minimum",
+    "min",
+    "mid",
+    "range",
+    "mid-range",
+    "mid-extreme",
+    "mean",
+    "central tendency",
+    "cumulative mid-range",
+    "cumulative",
+    "cmidrange",
+    "cummidrange",
+    "iterator",
+    "iterable",
+    "iterate"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
