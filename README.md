@@ -52,6 +52,11 @@ The [**mid-range**][mid-range], or **mid-extreme**, is the arithmetic mean of ma
 ## Usage
 
 ```javascript
+import itercumidrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-cumidrange@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-iter-cumidrange/tags). For example,
+
+```javascript
 import itercumidrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-cumidrange@v0.1.0-deno/mod.js';
 ```
 
@@ -107,7 +112,7 @@ v = it.next().value;
 
 ```javascript
 import runif from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-uniform@deno/mod.js';
-import itercumidrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-cumidrange@v0.1.0-deno/mod.js';
+import itercumidrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-cumidrange@deno/mod.js';
 
 // Create an iterator for generating uniformly distributed pseudorandom numbers:
 var rand = runif( -10.0, 10.0, {
